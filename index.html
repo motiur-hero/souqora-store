@@ -3,55 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sukra Store - Premium E-commerce</title>
-    
-    <!-- Tailwind CSS (১০০% সচল অফিশিয়াল CDN লিঙ্ক) -->
-    <script src="https://tailwindcss.com"></script>
+    <title>Sukra Store - Welcome</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://jsdelivr.net"></script>
 </head>
-<body class="bg-gray-100 antialiased">
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-    <!-- নেভিগেশন বার (লোগো সিস্টেম সহ) -->
-    <nav class="bg-white shadow-md">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
-                <!-- লোগো ডিসপ্লে -->
-                <div class="flex-shrink-0 flex items-center">
-                    <a href="#" class="flex items-center space-x-2">
-                        <!-- ডেমো লোগো ইমেজ (পরবর্তীতে আপনার ইমেজের লিংক দিতে পারবেন) -->
-                        <img class="h-10 w-auto rounded" src="https://unsplash.com" alt="Logo">
-                        <span class="text-2xl font-black text-blue-600 tracking-wide">Sukra <span class="text-gray-800">Store</span></span>
-                    </a>
-                </div>
-                <!-- ক্যাটাগরি মেনু -->
-                <div class="hidden md:flex space-x-8 font-medium text-gray-600">
-                    <a href="#" class="hover:text-blue-600 transition">Gadgets</a>
-                    <a href="#" class="hover:text-blue-600 transition">Health & Beauty</a>
-                    <a href="#" class="hover:text-blue-600 transition">Home Appliances</a>
-                </div>
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <a href="#" class="text-2xl font-bold text-indigo-600 tracking-wide">Sukra Store</a>
+            </div>
+            <!-- Navigation Menu -->
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#" class="text-indigo-600 border-b-2 border-indigo-600 pb-1">Home</a>
+                <a href="#" class="text-gray-500 hover:text-indigo-600 transition">Gadgets</a>
+                <a href="#" class="text-gray-500 hover:text-indigo-600 transition">Health & Beauty</a>
+                <a href="#" class="text-gray-500 hover:text-indigo-600 transition">Home Appliances</a>
+            </nav>
+            <!-- Right Side (Cart/User) -->
+            <div class="flex items-center space-x-4">
+                <button class="bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-indigo-700 transition">
+                    Shop Now
+                </button>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- হিরো ব্যানার সেকশন -->
+    <!-- Hero Section -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-8 md:p-12 text-white text-center shadow-lg">
+        <div class="bg-gradient-to-r Kahn from-indigo-500 to-purple-600 rounded-2xl text-white p-8 md:p-16 text-center shadow-lg mb-12">
             <h1 class="text-3xl md:text-5xl font-extrabold mb-4">Welcome to Sukra Store</h1>
-            <p class="text-blue-100 max-w-xl mx-auto text-sm md:text-base">স্মার্ট গ্যাজেট, হেলথ ও বিউটি এবং হোম অ্যাপ্লায়েন্সের সব সেরা কালেকশন এখন এক জায়গায়।</p>
+            <p class="text-lg md:text-xl text-indigo-100 max-w-2xl mx-auto">
+                স্মার্ট গ্যাজেট, হেলথ ও বিউটি এবং হোম অ্যাপ্লায়েন্সের সব সেরা কালেকশন এখন এক জায়গায়।
+            </p>
         </div>
 
-        <!-- প্রোডাক্ট সেকশন (Square Online এর জন্য রেডি করা) -->
-        <div class="mt-12 bg-white rounded-2xl p-6 md:p-10 shadow-sm border border-gray-200">
-            <h2 class="text-2xl font-bold text-gray-800 text-center mb-8">Our Featured Products</h2>
-            
-            <div class="text-center py-10 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
-                <p class="text-gray-500 font-medium">আপনার ডিজাইনটি ঠিক হওয়ার পর, আমরা এখানে Square Online-এর ফ্রি বাটনগুলো যুক্ত করব।</p>
+        <!-- Featured Products Section -->
+        <section class="mb-12">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-2xl font-bold text-gray-900">Our Featured Products</h2>
+                <span class="text-sm font-semibold text-indigo-600 hover:underline cursor-pointer">View All</span>
             </div>
-        </div>
+            
+            <!-- Notice / Placeholder Grid -->
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl shadow-sm">
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p class="text-md text-blue-700 font-medium">
+                            আপনার ডিজাইনটি ঠিক হওয়ার পর, আমরা এখানে <strong class="font-bold">Ecwid (ইকুইড)</strong> বা স্কয়ার অনলাইন-এর ফ্রি প্রোডাক্ট বাটন এবং স্লাইডারগুলো যুক্ত করব।
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- ফুটার -->
-    <footer class="bg-gray-900 text-gray-500 text-center py-6 mt-20 text-sm">
-        <p>&copy; 2026 Sukra Store. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-6 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500">
+            &copy; 2026 Sukra Store. All rights reserved.
+        </div>
     </footer>
 
 </body>
