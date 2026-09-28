@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://souqora.live/sitemap.xml

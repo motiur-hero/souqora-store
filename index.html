@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Souqora | Discover More. Shop Smarter.</title>
+<meta name="description" content="Quality products, great value and a seamless shopping experience. Shop electronics, home, fashion and beauty with fast delivery across Saudi Arabia.">
+<link rel="canonical" href="https://souqora.live/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Souqora">
+<meta property="og:title" content="Souqora | Discover More. Shop Smarter.">
+<meta property="og:description" content="Quality products, great value and a seamless shopping experience. Shop electronics, home, fashion and beauty with fast delivery across Saudi Arabia.">
+<meta property="og:url" content="https://souqora.live/">
+<meta property="og:image" content="https://souqora.live/assets/images/og.png">
+<link rel="icon" href="assets/logo/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Tailwind Play CDN: fine for launch on GitHub Pages. See README for the optional compiled build. -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{brand:{DEFAULT:'#0F4C3A',dark:'#0A3628'},saffron:'#E8A317',ink:'#12211B',paper:'#F7F8F6'}}}}</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home" class="bg-paper text-ink">
+<a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:p-2">Skip to content</a>
+<div id="site-header"></div>
+<main id="main">
+<section class="max-w-7xl mx-auto px-4 py-12 lg:py-20 grid lg:grid-cols-2 gap-10 items-center">
+  <div><h1 class="text-4xl lg:text-6xl font-bold leading-tight">Discover More. Shop Smarter.</h1>
+    <p class="mt-4 text-lg text-slate-700 max-w-prose">Quality products, great value and a seamless shopping experience — all in one place.</p>
+    <div class="mt-8 flex flex-wrap gap-3"><a href="shop.html" class="btn btn-primary">Shop Now</a><a href="shop.html?sort=best#grid" class="btn btn-outline">Explore Products</a></div></div>
+  <div id="hero-tiles" class="grid grid-cols-2 gap-4" aria-label="Featured products"></div>
+</section>
+<section class="bg-white border-y"><div class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
+  <div><h2 class="font-semibold">Fast delivery</h2><p class="text-slate-600">2–5 days across Saudi Arabia</p></div>
+  <div><h2 class="font-semibold">Secure payment</h2><p class="text-slate-600">Powered by Square</p></div>
+  <div><h2 class="font-semibold">Easy returns</h2><p class="text-slate-600">14 days, no fuss</p></div>
+  <div><h2 class="font-semibold">Customer support</h2><p class="text-slate-600">Arabic and English</p></div></div></section>
+<section id="categories" class="max-w-7xl mx-auto px-4 pt-16"><h2 class="text-2xl font-bold mb-4">Shop by category</h2><div id="categories-grid" class="grid grid-cols-2 lg:grid-cols-4 gap-4"></div></section>
+<section class="max-w-7xl mx-auto px-4 pt-16"><h2 class="text-2xl font-bold mb-4">Featured products</h2><div id="featured" class="grid grid-cols-2 lg:grid-cols-4 gap-4 skel-grid"></div></section>
+<section class="max-w-7xl mx-auto px-4 pt-16"><h2 class="text-2xl font-bold mb-4">New arrivals</h2><div id="new" class="grid grid-cols-2 lg:grid-cols-4 gap-4 skel-grid"></div></section>
+<section class="max-w-7xl mx-auto px-4 pt-16"><h2 class="text-2xl font-bold mb-4">Best sellers</h2><div id="best" class="grid grid-cols-2 lg:grid-cols-4 gap-4 skel-grid"></div></section>
+<section class="max-w-7xl mx-auto px-4 pt-16"><h2 class="text-2xl font-bold mb-4">Special offers</h2><div id="offers" class="grid grid-cols-2 lg:grid-cols-4 gap-4 skel-grid"></div></section>
+<section class="max-w-7xl mx-auto px-4 pt-16"><div class="bg-brand text-white rounded-2xl p-8 lg:p-12 grid lg:grid-cols-2 gap-6 items-center">
+  <div><h2 class="text-2xl font-bold">Get offers before anyone else</h2><p class="text-white/80 mt-1">One email a week. Unsubscribe any time.</p></div>
+  <form id="newsletter" class="flex gap-2"><label class="sr-only" for="nl">Email address</label><input id="nl" type="email" required placeholder="you@example.com" class="field text-ink"><button class="btn btn-accent">Subscribe</button></form></div></section>
+</main>
+<div id="site-footer"></div>
+<script src="js/config.js"></script><script src="js/square.js"></script><script src="js/products.js"></script>
+<script src="js/cart.js"></script><script src="js/checkout.js"></script><script src="js/app.js"></script>
+</body>
+</html>
