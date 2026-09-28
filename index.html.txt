@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukra Store - Premium E-commerce</title>
+    
+    <!-- Tailwind CSS (১০০% সচল অফিশিয়াল CDN লিঙ্ক) -->
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 antialiased">
+
+    <!-- নেভিগেশন বার (লোগো সিস্টেম সহ) -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- লোগো ডিসপ্লে -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="flex items-center space-x-2">
+                        <!-- ডেমো লোগো ইমেজ (পরবর্তীতে আপনার ইমেজের লিংক দিতে পারবেন) -->
+                        <img class="h-10 w-auto rounded" src="https://unsplash.com" alt="Logo">
+                        <span class="text-2xl font-black text-blue-600 tracking-wide">Sukra <span class="text-gray-800">Store</span></span>
+                    </a>
+                </div>
+                <!-- ক্যাটাগরি মেনু -->
+                <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+                    <a href="#" class="hover:text-blue-600 transition">Gadgets</a>
+                    <a href="#" class="hover:text-blue-600 transition">Health & Beauty</a>
+                    <a href="#" class="hover:text-blue-600 transition">Home Appliances</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- হিরো ব্যানার সেকশন -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-8 md:p-12 text-white text-center shadow-lg">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4">Welcome to Sukra Store</h1>
+            <p class="text-blue-100 max-w-xl mx-auto text-sm md:text-base">স্মার্ট গ্যাজেট, হেলথ ও বিউটি এবং হোম অ্যাপ্লায়েন্সের সব সেরা কালেকশন এখন এক জায়গায়।</p>
+        </div>
+
+        <!-- প্রোডাক্ট সেকশন (Square Online এর জন্য রেডি করা) -->
+        <div class="mt-12 bg-white rounded-2xl p-6 md:p-10 shadow-sm border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 text-center mb-8">Our Featured Products</h2>
+            
+            <div class="text-center py-10 bg-gray-50 rounded-xl border-2 border-dashed border-gray-300">
+                <p class="text-gray-500 font-medium">আপনার ডিজাইনটি ঠিক হওয়ার পর, আমরা এখানে Square Online-এর ফ্রি বাটনগুলো যুক্ত করব।</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ফুটার -->
+    <footer class="bg-gray-900 text-gray-500 text-center py-6 mt-20 text-sm">
+        <p>&copy; 2026 Sukra Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
